@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Bundle>
+  <ID>no</ID>
+  <Set name="noSET">
+    <PreviewImage size="108810">no.png</PreviewImage>
+    <VideoFile size="10769796">no.mp4</VideoFile>
+    <FileBundle size="0" />
+    <AppDLC size="0" checksum="0" />
+    <Lang lang="U">
+      <SelectEvents>Phygital</SelectEvents>
+    </Lang>
+    <Lang lang="R">
+      <SelectEvents>PhygitalR</SelectEvents>
+    </Lang>
+    <Lang>
+      <SelectEvents>Main</SelectEvents>
+    </Lang>
+  </Set>
+  <EventGroup name="Phygital">
+    <Event time="0.43" type="PhygitalSequence" data="CancelPrevious">
+      <Sequence dlc="dlc32" type="Specific" input="75" index="0" subindex="1" specific="3" />
+    </Event>
+    <Event time="21.3" type="PhygitalSequence" data="CancelPrevious">
+      <Sequence dlc="dlc32" type="Specific" input="75" index="0" subindex="1" specific="4" />
+    </Event>
+    <Event time="99.9" type="PhygitalSequence" data="CancelPrevious">
+      <Sequence dlc="dlc32" type="Specific" input="75" index="0" subindex="1" specific="5" />
+    </Event>
+  </EventGroup>
+  <EventGroup name="PhygitalR">
+    <Event time="0.43" type="PhygitalSequence" data="CancelPrevious">
+      <Sequence dlc="dlc32" type="Specific" input="73" index="0" subindex="1" specific="3" />
+    </Event>
+    <Event time="21.3" type="PhygitalSequence" data="CancelPrevious">
+      <Sequence dlc="dlc32" type="Specific" input="73" index="0" subindex="1" specific="4" />
+    </Event>
+    <Event time="99.9" type="PhygitalSequence" data="CancelPrevious">
+      <Sequence dlc="dlc32" type="Specific" input="73" index="0" subindex="1" specific="5" />
+    </Event>
+  </EventGroup>
+  <EventGroup name="Main">
+    <Event time="4.0" type="PlayerAnimGroup" data="WatchMovieOoh" />
+    <Event time="22.0" type="PlayerAnimGroup" data="CelebrateLoop" />
+    <Event time="28.0" type="StopLoop" />
+  </EventGroup>
+</Bundle>
